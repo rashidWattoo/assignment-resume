@@ -6,14 +6,14 @@
 .left{
 	height:1200px;
 	width:40%;
-	background-color:#029EE3;
+	background-color:#990011FF;
 	color:#ffffff;
 }
 .right{
 	height:1200px;
 	width:60%;
-	background-color:#ffffff;
-	color:#029EE3;
+	background-color:gray;
+
 	float:right;
 	margin-top:0px;
 	
@@ -22,17 +22,17 @@
 	height:80%;
 	width:50%;
 	margin-top:70px;
-	background-color:#029EE3;
+	background-color:#990011FF;
 	float:right;
-	box-shadow: -30px 10px 35px 5px grey;
+	box-shadow: -30px 10px 35px 5px black;
 	
 }
 .left .leftRight img{
 	border-radius:250px;
-	border:5px solid #029EE3;
+	border:5px solid #990011FF;
 	float:right;
-	width:200px;
-	margin-right:10px;
+	width:80%;
+	margin-right:30px;
 	margin-top:10px;
 }
 .rightLeft
@@ -41,7 +41,7 @@
 	width:70%;
 	margin-top:70px;
 	background-color:#ffffff;
-	box-shadow:30px 10px 35px 5px grey;
+	box-shadow:30px 10px 35px 5px black;
 	float:left;
 }
 .heading1{
@@ -54,6 +54,7 @@
 .heading1 h1
 {
 	font-weight:bold;
+	color:#990011FF;
 	
 
 }
@@ -63,8 +64,34 @@
 }
 .address{
 	margin-right:0px;
-	margin-top:80px;
+	margin-top:100px;
 	text-align:center;
 	width:40%;
 	float:right;
+}
+.address h4{
+	color:black;
+}
+.btn
+{
+	margin-left:40%;
+	margin-top:20px;
+	box-shadow: -5px 5px 20px 5px black;
+	background-color:#990011FF;
+	color:#ffffff;
+}
+.btn:hover
+{
+	font-weight:bold;
+	background-color:#fffffff;
+	
+}
+.data h1{
+	color:#ffffff;
+	background-color:#990011FF;
+	text-align:center;
+}
+.data p{
+	padding:3%;
+	color:black;
 }
